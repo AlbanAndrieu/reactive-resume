@@ -1,3 +1,6 @@
+---
+# Standalone devcontainer PostgreSQL for Reactive Resume. The nabla-compose main stack uses only
+# pgwatch/docker/compose.postgres.yml for its `postgres` service.
 services:
   reactive_resume:
     build:

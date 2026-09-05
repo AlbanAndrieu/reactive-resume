@@ -1,5 +1,8 @@
 name: reactive_resume
 
+# Standalone Reactive Resume dev database. docker-compose.yml at the repo root uses only
+# pgwatch/docker/compose.postgres.yml for `postgres`.
+
 services:
   adminer:
     image: adminer:latest
